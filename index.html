@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<title>Tabela 6x6</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: #f5f5f5;
+    }
+
+    table {
+        border-collapse: collapse;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    td {
+        width: 60px;
+        height: 60px;
+        border: 1px solid #333;
+    }
+
+    /* Pola z numerami – błękitne */
+    .num {
+        background: skyblue;
+        font-weight: bold;
+    }
+
+    /* Litery b, c – jasnozielone */
+    .green {
+        background: lightgreen;
+    }
+
+    /* Litery j, o – żółte */
+    .yellow {
+        background: yellow;
+    }
+
+    /* Litery p, q, r, u, v, w – czerwone */
+    .red {
+        background: red;
+        color: white;
+    }
+</style>
+</head>
+<body>
+
+<table>
+    <!-- Rząd 0: numery kolumn -->
+    <tr>
+        <td class="num">1</td>
+        <td class="num">2</td>
+        <td class="num">3</td>
+        <td class="num">4</td>
+        <td class="num">5</td>
+        <td class="num">6</td>
+    </tr>
+
+    <!-- Rząd 1 -->
+    <tr>
+        <td class="num">2</td>
+        <td>a</td>
+        <td class="green">b</td>
+        <td class="green">c</td>
+        <td>d</td>
+        <td>e</td>
+    </tr>
+
+    <!-- Rząd 2 -->
+    <tr>
+        <td class="num">3</td>
+        <td>f</td>
+        <td>g</td>
+        <td>h</td>
+        <td>i</td>
+        <td class="yellow">j</td>
+    </tr>
+
+    <!-- Rząd 3 -->
+    <tr>
+        <td class="num">4</td>
+        <td>k</td>
+        <td>l</td>
+        <td>m</td>
+        <td>n</td>
+        <td class="yellow">o</td>
+    </tr>
+
+    <!-- Rząd 4 -->
+    <tr>
+        <td class="num">5</td>
+        <td class="red">p</td>
+        <td class="red">q</td>
+        <td class="red">r</td>
+        <td>s</td>
+        <td>t</td>
+    </tr>
+
+    <!-- Rząd 5 -->
+    <tr>
+        <td class="num">6</td>
+        <td class="red">u</td>
+        <td class="red">v</td>
+        <td class="red">w</td>
+        <td>x</td>
+        <td>y</td>
+    </tr>
+</table>
+
+</body>
+</html>
